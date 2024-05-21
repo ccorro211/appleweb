@@ -58,7 +58,7 @@ header ul.menu > li > a:hover{
 /* header menu basket */
 
 header .basket{
-    display: none;
+    
     position: absolute;
     top : calc(100% + 5px);
     width: 200px;
@@ -68,10 +68,14 @@ header .basket{
     box-sizing: border-box;
     padding:10px;
     right: -10px;
+    transition: 1.5s;
+    visibility: hidden;
+    opacity: 0;
     
 }
 header .basket.show{
-    display: block;
+    visibility: visible;
+    opacity: 1;
 }
 header .basket .arrow{
     width: 20px;
