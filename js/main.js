@@ -59,7 +59,3 @@ window.addEventListener("click", (e)=>{
     headerEl.classList.remove("searching")
     
 })
-
-
-
-
